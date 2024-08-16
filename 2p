@@ -66,7 +66,8 @@ ImageButton.Size = UDim2.new(0.720339, 0, 0.760416687, 0)
 ImageButton.Image = "http://www.roblox.com/asset/?id=11842149042"
 
 ImageButton.MouseButton1Click:Connect(function ()
-        game.CoreGui:FindFirstChild("Discord").Enabled = not game.CoreGui:FindFirstChild("Discord").Enabled 
+local ui = game:GetService("CoreGui").RobloxGui.Modules.Server.ServerPlayer:FindFirstChild("Discord")
+        ui.Enabled = not ui.Enabled 
 end)
 
 ---------------
