@@ -71,7 +71,7 @@ ImageButton.MouseButton1Click:Connect(function ()
         game.CoreGui:FindFirstChild("Discord").Enabled = not game.CoreGui:FindFirstChild("Discord").Enabled 
 end)
 
- local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Discord-Lib/main/New'))()  
+ local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Discord-Lib/main/DiscordLib'))()  
   local win = DiscordLib:Window("[Test Hub X Premium⭐] ".." ")  
 local per = game.Players.LocalPlayer.Name 
 DiscordLib:Notification("Premium Stars ⭐ Share","Hello! ".."⭐"..per..".                                              ".." Thanks For Buy Premium ","Ok")  
